@@ -1,0 +1,16 @@
+/* src/home.css */
+.home-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.home-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 20px;
+}

@@ -1,0 +1,50 @@
+/* Styling for Navbar */
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  width: 150px;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+/* Center form containers */
+.d-flex.justify-content-center.align-items-center {
+  min-height: 100vh;
+}
+
+/* Additional styling for form components */
+.form-label {
+  font-weight: bold;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('bg.jpg');
+  background-size: cover; /* Make the image cover the full screen */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* src/App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f8f9fa; /* Light background for the full app */
+  padding: 20px;
+}
